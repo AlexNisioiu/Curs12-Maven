@@ -11,4 +11,5 @@ public class PersonLombok {
     private final boolean isMarried;
     private final String company;
 
+
 }

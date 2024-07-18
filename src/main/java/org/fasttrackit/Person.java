@@ -4,6 +4,7 @@ import java.util.Objects;
 @MyFirstAnnotation(defaultAge = 21)
 public class Person {
 
+
     private String name;
     @MyFirstAnnotation
     private int age;
@@ -82,5 +83,6 @@ public class Person {
     @Override
     public int hashCode() {
         return Objects.hash(name, age, country, isMarried, company);
+
     }
 }

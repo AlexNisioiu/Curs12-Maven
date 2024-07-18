@@ -22,6 +22,7 @@ public class ReflectionExercise {
         ageField.set(p,defaultAge);
 
         System.out.println(p.getAge());
+        System.out.println();
 
 
     }
